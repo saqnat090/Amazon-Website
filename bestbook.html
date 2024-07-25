@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSnovels</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- header section started -->
+    <nav class="navbar navbar-light">
+        <div class="container">
+          <a href="./index.html" class="navbar-brand">
+            <img class="header-img" src="./IMAGE/logo.png" alt="">
+          </a>
+          <form class="d-flex search-padding">
+            <input type="search" placeholder="Search" aria-label="Search">
+          </form>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button class="btn btn-outline-info me-md-2" type="button">Login</button>
+            <button class="btn btn-outline-info" type="button">Sign up</button>
+          </div>
+        </div>
+    </nav>
+    <header class="bg-dark header">
+        <div class="container">
+            <div class="row">
+                <div class="dropdown d-flex align-items-md-center justify-content-lg-between">
+                    <div class="d-flex">
+                        <ul class="nav nav-pills">
+                            <li class="nav-item dropdown">
+                              <a class=" dropdown-toggle header-item-pdd" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Electronics</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">NordVPN</a></li>
+                                    <li><hr class="dropdown-divider"></li>  
+                                    <li><a class="dropdown-item" href="#">Surfshark</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">PureVPN</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">IVacy</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">IPVanish</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">CyberGhost</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="nav nav-pills ps-sm-4">
+                            <li class="nav-item dropdown">
+                              <a class=" dropdown-toggle header-item-pdd" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Kitchen</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">NordVPN</a></li>
+                                    <li><hr class="dropdown-divider"></li>  
+                                    <li><a class="dropdown-item" href="#">Surfshark</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">PureVPN</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">IVacy</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">IPVanish</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">CyberGhost</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="nav nav-pills ps-sm-4">
+                            <li class="nav-item dropdown">
+                              <a class=" dropdown-toggle header-item-pdd" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Lawn & Garden</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">NordVPN</a></li>
+                                    <li><hr class="dropdown-divider"></li>  
+                                    <li><a class="dropdown-item" href="#">Surfshark</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">PureVPN</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">IVacy</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">IPVanish</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">CyberGhost</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="nav nav-pills ps-sm-4">
+                            <li class="nav-item dropdown">
+                              <a class=" dropdown-toggle header-item-pdd" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Home</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">NordVPN</a></li>
+                                    <li><hr class="dropdown-divider"></li>  
+                                    <li><a class="dropdown-item" href="#">Surfshark</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">PureVPN</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">IVacy</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">IPVanish</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">CyberGhost</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="nav nav-pills ps-sm-4">
+                            <li class="nav-item dropdown">
+                              <a class=" dropdown-toggle header-item-pdd" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Computer</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">NordVPN</a></li>
+                                    <li><hr class="dropdown-divider"></li>  
+                                    <li><a class="dropdown-item" href="#">Surfshark</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">PureVPN</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">IVacy</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">IPVanish</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">CyberGhost</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="nav nav-pills ps-sm-4">
+                            <li class="nav-item dropdown">
+                              <a class=" dropdown-toggle header-item-pdd" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">All Categories</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">NordVPN</a></li>
+                                    <li><hr class="dropdown-divider"></li>  
+                                    <li><a class="dropdown-item" href="#">Surfshark</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">PureVPN</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">IVacy</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">IPVanish</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">CyberGhost</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="dropdown-left-side-link">
+                        <ul class="nav justify-content-end">
+                            <li class="nav-item pe-sm-4">
+                              <a class="active" aria-current="page" href="#">Articles</a>
+                            </li>
+                            <li class="nav-item pe-sm-4">
+                              <a class=" href="#">Deals</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class=" href="#">Prime Day</a>
+                            </li>
+                          </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header section closed -->
+
+    <!-- blog banner section started -->
+    <section class="blog-banner d-flex align-items-center text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="main-blog-banner">
+                        <h2>Blog</h2>
+                        <div class="blog-banner-sub-h">
+                            <a href="`#">Home</a>
+                            <span>/blog</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- blog banner section closed -->
+
+    <!-- blog section started -->
+    <!-- <section>
+        <div class="container">
+            <div class="my-5">
+                <h2 class="verticalLine verticalLine-h ">New Blogs Trendings</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-5 shadow-sm">
+                        <img src="./IMAGE/blog1.webp" class="img-fluid" alt="img">
+                        <div class="card-body">
+                            <div class="date-blog">
+                                <time datetime="">Jul. 23, 2024 |</time>
+                                <a href="#">TOYS & GAMES</a>
+                            </div>
+                            <div class="card-title">
+                                <h2>
+                                    <a href="#">Mattel launches its first blind Barbie doll, with tactile features and a cane</a>
+                                </h2>
+                                <div>
+                                    by
+                                    <a href="#" class="color-dark">
+                                        <span>Christina Marfice</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card-text">
+                                <p>
+                                    We're fans of Mattel's blind Barbie doll and Black Barbie doll with Down syndrome.
+                                </p>
+                            </div>
+                            <a href="#" class="btn btn-outline-primary rounded-0 float-end">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-5 shadow-sm">
+                        <img src="./IMAGE/blog2.webp" class="img-fluid" alt="img">
+                        <div class="card-body">
+                            <div class="date-blog">
+                                <time datetime="">Jul. 24, 2024 |</time>
+                                <a href="#">HOME</a>
+                            </div>
+                            <div class="card-title">
+                                <h2>
+                                    <a href="#">Five Below’s dorm decor collection is selling out fast</a>
+                                </h2>
+                                <div>
+                                    by
+                                    <a href="#" class="color-dark">
+                                        <span>Christina Marfice</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card-text">
+                                <p>
+                                    Head to Five Below for tons of cute and practical dorm essentials.
+                                </p>
+                            </div>
+                            <a href="#" class="btn btn-outline-primary rounded-0 float-end">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-5 shadow-sm">
+                        <img src="./IMAGE/blog3.webp" class="img-fluid" alt="img">
+                        <div class="card-body">
+                            <div class="date-blog">
+                                <time datetime="">Jul. 22, 2024 |</time>
+                                <a href="#">KITCHEN</a>
+                            </div>
+                            <div class="card-title">
+                                <h2>
+                                    <a href="#">Target’s colorful Pyrex storage will help you use less plastic in your kitchen</a>
+                                </h2>
+                                <div>
+                                    by
+                                    <a href="#" class="color-dark">
+                                        <span>Christina Marfice</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card-text">
+                                <p>
+                                    Looking to use less plastic for food storage? These Pyrex containers will help.
+                                </p>
+                            </div>
+                            <a href="#" class="btn btn-outline-primary rounded-0 float-end">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <section>
+        <div class="container">
+            <div class="my-5">
+                <h2 class="verticalLine verticalLine-h ">New Blogs Trendings</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-5 shadow-sm">
+                        <img src="./IMAGE/blog1.webp" class="img-fluid" alt="img">
+                        <div class="card-body">
+                            <div class="date-blog">
+                                <time datetime="">Jul. 23, 2024 |</time>
+                                <a href="#">TOYS & GAMES</a>
+                            </div>
+                            <div class="card-title">
+                                <h2>
+                                    <a href="#">Mattel launches its first blind Barbie doll, with tactile features and a cane</a>
+                                </h2>
+                                <div>
+                                    by
+                                    <a href="#" class="color-dark">
+                                        <span>Christina Marfice</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card-text">
+                                <p>
+                                    We're fans of Mattel's blind Barbie doll and Black Barbie doll with Down syndrome.
+                                </p>
+                            </div>
+                            <a href="./Adultcoloringbooks.html" class="btn btn-outline-primary rounded-0 float-end">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-5 shadow-sm">
+                        <img src="./IMAGE/blog2.webp" class="img-fluid" alt="img">
+                        <div class="card-body">
+                            <div class="date-blog">
+                                <time datetime="">Jul. 24, 2024 |</time>
+                                <a href="#">HOME</a>
+                            </div>
+                            <div class="card-title">
+                                <h2>
+                                    <a href="#">Five Below’s dorm decor collection is selling out fast</a>
+                                </h2>
+                                <div>
+                                    by
+                                    <a href="#" class="color-dark">
+                                        <span>Christina Marfice</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card-text">
+                                <p>
+                                    Head to Five Below for tons of cute and practical dorm essentials.
+                                </p>
+                            </div>
+                            <a href="#" class="btn btn-outline-primary rounded-0 float-end">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-5 shadow-sm">
+                        <img src="./IMAGE/blog3.webp" class="img-fluid" alt="img">
+                        <div class="card-body">
+                            <div class="date-blog">
+                                <time datetime="">Jul. 22, 2024 |</time>
+                                <a href="#">KITCHEN</a>
+                            </div>
+                            <div class="card-title">
+                                <h2>
+                                    <a href="#">Target’s colorful Pyrex storage will help you use less plastic in your kitchen</a>
+                                </h2>
+                                <div>
+                                    by
+                                    <a href="#" class="color-dark">
+                                        <span>Christina Marfice</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card-text">
+                                <p>
+                                    Looking to use less plastic for food storage? These Pyrex containers will help.
+                                </p>
+                            </div>
+                            <a href="#" class="btn btn-outline-primary rounded-0 float-end">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-5 shadow-sm">
+                        <img src="./IMAGE/blog1.webp" class="img-fluid" alt="img">
+                        <div class="card-body">
+                            <div class="date-blog">
+                                <time datetime="">Jul. 23, 2024 |</time>
+                                <a href="#">TOYS & GAMES</a>
+                            </div>
+                            <div class="card-title">
+                                <h2>
+                                    <a href="#">Mattel launches its first blind Barbie doll, with tactile features and a cane</a>
+                                </h2>
+                                <div>
+                                    by
+                                    <a href="#" class="color-dark">
+                                        <span>Christina Marfice</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card-text">
+                                <p>
+                                    We're fans of Mattel's blind Barbie doll and Black Barbie doll with Down syndrome.
+                                </p>
+                            </div>
+                            <a href="#" class="btn btn-outline-primary rounded-0 float-end">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-5 shadow-sm">
+                        <img src="./IMAGE/blog2.webp" class="img-fluid" alt="img">
+                        <div class="card-body">
+                            <div class="date-blog">
+                                <time datetime="">Jul. 24, 2024 |</time>
+                                <a href="#">HOME</a>
+                            </div>
+                            <div class="card-title">
+                                <h2>
+                                    <a href="#">Five Below’s dorm decor collection is selling out fast</a>
+                                </h2>
+                                <div>
+                                    by
+                                    <a href="#" class="color-dark">
+                                        <span>Christina Marfice</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card-text">
+                                <p>
+                                    Head to Five Below for tons of cute and practical dorm essentials.
+                                </p>
+                            </div>
+                            <a href="#" class="btn btn-outline-primary rounded-0 float-end">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-5 shadow-sm">
+                        <img src="./IMAGE/blog3.webp" class="img-fluid" alt="img">
+                        <div class="card-body">
+                            <div class="date-blog">
+                                <time datetime="">Jul. 22, 2024 |</time>
+                                <a href="#">KITCHEN</a>
+                            </div>
+                            <div class="card-title">
+                                <h2>
+                                    <a href="#">Target’s colorful Pyrex storage will help you use less plastic in your kitchen</a>
+                                </h2>
+                                <div>
+                                    by
+                                    <a href="#" class="color-dark">
+                                        <span>Christina Marfice</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card-text">
+                                <p>
+                                    Looking to use less plastic for food storage? These Pyrex containers will help.
+                                </p>
+                            </div>
+                            <a href="#" class="btn btn-outline-primary rounded-0 float-end">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-5 shadow-sm">
+                        <img src="./IMAGE/blog1.webp" class="img-fluid" alt="img">
+                        <div class="card-body">
+                            <div class="date-blog">
+                                <time datetime="">Jul. 23, 2024 |</time>
+                                <a href="#">TOYS & GAMES</a>
+                            </div>
+                            <div class="card-title">
+                                <h2>
+                                    <a href="#">Mattel launches its first blind Barbie doll, with tactile features and a cane</a>
+                                </h2>
+                                <div>
+                                    by
+                                    <a href="#" class="color-dark">
+                                        <span>Christina Marfice</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card-text">
+                                <p>
+                                    We're fans of Mattel's blind Barbie doll and Black Barbie doll with Down syndrome.
+                                </p>
+                            </div>
+                            <a href="#" class="btn btn-outline-primary rounded-0 float-end">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-5 shadow-sm">
+                        <img src="./IMAGE/blog2.webp" class="img-fluid" alt="img">
+                        <div class="card-body">
+                            <div class="date-blog">
+                                <time datetime="">Jul. 24, 2024 |</time>
+                                <a href="#">HOME</a>
+                            </div>
+                            <div class="card-title">
+                                <h2>
+                                    <a href="#">Five Below’s dorm decor collection is selling out fast</a>
+                                </h2>
+                                <div>
+                                    by
+                                    <a href="#" class="color-dark">
+                                        <span>Christina Marfice</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card-text">
+                                <p>
+                                    Head to Five Below for tons of cute and practical dorm essentials.
+                                </p>
+                            </div>
+                            <a href="#" class="btn btn-outline-primary rounded-0 float-end">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-5 shadow-sm">
+                        <img src="./IMAGE/blog3.webp" class="img-fluid" alt="img">
+                        <div class="card-body">
+                            <div class="date-blog">
+                                <time datetime="">Jul. 22, 2024 |</time>
+                                <a href="#">KITCHEN</a>
+                            </div>
+                            <div class="card-title">
+                                <h2>
+                                    <a href="#">Target’s colorful Pyrex storage will help you use less plastic in your kitchen</a>
+                                </h2>
+                                <div>
+                                    by
+                                    <a href="#" class="color-dark">
+                                        <span>Christina Marfice</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card-text">
+                                <p>
+                                    Looking to use less plastic for food storage? These Pyrex containers will help.
+                                </p>
+                            </div>
+                            <a href="#" class="btn btn-outline-primary rounded-0 float-end">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- blog section closed -->
+
+    <!-- Footer section started -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-box">
+                        <img src="./IMAGE/footer-logo.png" alt="">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam repellendus sunt praesentium aspernatur iure molestias.</p>
+                    <h3>We Accect</h3>
+                    <div class="card-area">
+                        <img src="./IMAGE/payment card.webp" alt="img">
+                    </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-box">
+                        <h2>QUICK LINKS</h2>
+                        <ul>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms and Conditions</a></li>
+                        </ul>
+                    </div>                    
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-box">
+                        <h2>SERVICES</h2>
+                    <ul>
+                        <li><a href="#">Electronics</a></li>
+                        <li><a href="#">Kitchen</a></li>
+                        <li><a href="#">Lawn & Garden</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Computer</a></li>
+                        <li><a href="#">All Categories</a></li>
+                    </ul>
+                    </div>                    
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-box">
+                        <h2>CONTACT INFO</h2>
+                        <ul>
+                            <li><a href="#">info@bestprimereviews</a></li>
+                            <li><a href="#">+1 (855) 605-5212</a></li>
+                            <li><a href="#">166 Geary St 15th FL, San Francisco, CA 94108, United States</a></li>
+                        </ul>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Enter your Email ..." aria-describedby="basic-addon2">
+                            <span class="input-group-text" id="basic-addon2"><i class="fa fa-long-arrow-right"></i></span>
+                        </div>
+                        <h2>Follow us on</h2>
+                        <p class="socials">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-pinterest"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </footer>
+    <!-- Footer section closed -->
+</body>
+</html> 
